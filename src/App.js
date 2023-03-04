@@ -1,3 +1,5 @@
+/* */
+
 import React, {useState} from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,14 +10,14 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About');
   const handlePageChange = (page) => setCurrentPage(page);
   return(
-    <div>
+    <body>
         <Header 
         currentPage ={currentPage} 
         handlePageChange={handlePageChange}/>
         <Project 
         currentPage ={currentPage}/>
         <Footer/>
-    </div>
+    </body>
   
   ) 
 }

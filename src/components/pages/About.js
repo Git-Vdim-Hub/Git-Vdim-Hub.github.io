@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function About () {
     return (
-        <p> I love coding!</p>
+        <p> Whats a Vadim?</p>
     )
 }
