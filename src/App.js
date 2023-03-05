@@ -1,4 +1,8 @@
-/* */
+/* 
+1. Create snapshots of mock-up
+2. create html layouts of all the pages
+3. import/convert to react
+*/
 
 import React, {useState} from 'react';
 import Header from './components/Header';

@@ -8,12 +8,8 @@ function Header(props) {
   // JSX is a syntax extension to JavaScript that looks like HTML.
   // JSX is compiled by "Babel" into widely supported ES5 syntax.
   return (
-  <header style = {{backgroundImage: `url("/images/nav.png")`, maxHeight: "100vh", backgroundSize: "contain"}}>Vadim
-    <div className = "container" style={{minHeight: '100px'}}>
     <Navigation {...props}/>
-    </div>
 
-              </header>
   )
 }
 
