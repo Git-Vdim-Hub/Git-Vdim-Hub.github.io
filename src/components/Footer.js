@@ -5,7 +5,8 @@ import {Linkedin} from "react-bootstrap-icons";
 
 export default function Footer() {
     return(
-       <footer className = "bg-dark text-center text-light">     
+       <footer className = "bg-dark text-center text-light p-5"> 
+       {/* <div className="p-5"></div>     */}
         <div class="container p-4">
         <section class="mb-4">
         <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/WhatsAVadim" role="button"
