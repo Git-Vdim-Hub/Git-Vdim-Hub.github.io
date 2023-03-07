@@ -1,0 +1,232 @@
+.work{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+
+.workTitle{
+    width:25%;
+    padding-right: 1%;
+}
+
+.gallery{
+    width:75%;
+    padding-left: 2%;
+}
+
+.largeImage{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-image: url("../../public/images/Blog-Me.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border: 5px solid rgb(13, 13, 13);
+}
+
+/* .largeImage:hover {
+    opacity: 85%;
+    cursor: pointer;
+} */
+
+.largeImage div {
+    /* background-color: rgb(0, 0, 0); */
+    /* color:rgb(252, 252, 252); */
+    font-size:30px;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.largeImage div small{
+    font-size: 50%;
+}
+
+.galleryContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2%;
+}
+
+.smallImage1{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-image: url("../../public/images/smallImage1.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border: 5px solid rgb(13, 13, 13);
+    
+}
+
+.project-info{
+    opacity: 5%;
+}
+.project-info:hover{
+    opacity: 100%;
+}
+
+/* .smallImage1:hover {
+    opacity: 85%;
+    cursor: pointer;
+} */
+
+.smallImage1 div{
+    /* background-color: rgb(0, 0, 0); */
+    /* color:rgb(252, 252, 252); */
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.smallImage1 div p{
+    font-size: 50%;
+}
+
+.smallImage2{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-image: url("../../public/images/Fiesta-Collector.png");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border: 5px solid rgb(13, 13, 13);
+}
+
+/* .smallImage2:hover {
+    opacity: 85%;
+    cursor: pointer;
+} */
+
+.smallImage2 div{
+    /* background-color: rgb(24, 170, 153);
+    color:rgb(206, 206, 17); */
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.smallImage2 div p{
+    font-size: 50%;
+}
+.smallImage3{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-image: url("../../public/images/BearCave.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border: 5px solid rgb(13, 13, 13);
+}
+/* .smallImage3:hover {
+    opacity: 85%;
+    cursor: pointer;
+} */
+
+.smallImage3 div{
+    /* background-color: rgb(24, 170, 153);
+    color:rgb(206, 206, 17); */
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.smallImage3 div p{
+    font-size: 50%;
+}
+.smallImage4{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-image: url("../../public/images/GenMeReadMe.png");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border: 5px solid rgb(13, 13, 13);
+}
+
+/* .smallImage4:hover {
+    opacity: 85%;
+    cursor: pointer;
+} */
+.smallImage4 div{
+    /* background-color: rgb(24, 170, 153);
+    color:rgb(206, 206, 17); */
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.smallImage4 div p{
+    font-size: 50%;
+}
+.smallImage5{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 0.5%;
+    background-image: url("../../public/images/WeatherDashboard.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border: 5px solid rgb(13, 13, 13);
+}
+
+/* .smallImage4:hover {
+    opacity: 85%;
+    cursor: pointer;
+} */
+.smallImage5 div{
+    /* background-color: rgb(24, 170, 153);
+    color:rgb(206, 206, 17); */
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.smallImage5 div p{
+    font-size: 50%;
+}
+
+@media only screen and (max-width: 990px){
+    .galleryContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .work{
+        flex-direction:column;
+    }
+    
+    .workTitle{
+        width:100%;
+    }
+    
+    .work h2{
+        text-align: center;
+        padding: 3% 0;
+    }
+    
+    .gallery{
+        width:100%;
+        border:none;
+        padding:3%;
+    }
+}

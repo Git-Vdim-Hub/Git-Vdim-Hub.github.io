@@ -14,22 +14,22 @@ export default function Navigation({currentPage, handlePageChange}){
             <Nav.Link href="#about"
                        onClick={() => handlePageChange('About')}
                       
-                       className={currentPage === 'About' ? 'nav-link active text-light' : 'nav-link text-light'}
+                       className={currentPage === 'About' ? 'nav-link active text-warning' : 'nav-link text-warning'}
                        >
                          About</Nav.Link>
             <Nav.Link href="#portfolio"
                        onClick={() => handlePageChange('Portfolio')}
-                       className={currentPage === 'Portfolio' ? ' nav-link active text-light' : 'nav-link text-light'} 
+                       className={currentPage === 'Portfolio' ? ' nav-link active text-warning' : 'nav-link text-warning'} 
                        >
                          Portfolio</Nav.Link>
             <Nav.Link href="#resume"
                        onClick={() => handlePageChange('Resume')}
-                       className={currentPage === 'Resume' ? ' nav-link active text-light' : 'nav-link text-light'} 
+                       className={currentPage === 'Resume' ? ' nav-link active text-warning' : 'nav-link text-warning'} 
                        >
                          Resume</Nav.Link>
             <Nav.Link href="#contact"
                        onClick={() => handlePageChange('Contact')}
-                       className={currentPage === 'Contact' ? 'dropdown-item nav-link active text-light' : 'nav-link text-light'} 
+                       className={currentPage === 'Contact' ? 'dropdown-item nav-link active text-warning' : 'nav-link text-warning'} 
                        >
                          Contact</Nav.Link>
           </Nav>

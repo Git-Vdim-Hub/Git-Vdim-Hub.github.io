@@ -4,6 +4,13 @@ import React from 'react';
 export default function Resume() {
     return (
         <div>
+            <div className="container">
+                <div className="row">
+                    <div className = "col-md-6 offset-md-4">
+                    <a href="https://github.com/Git-Vdim-Hub/Resume" className="text-decoration-none fs-2">Download My Resume</a>
+                    </div>
+                </div>
+            </div>
             <div className = "container p-2 ">
             <ul class="list-unstyled">
                 <li>Front-End Proficiencies
@@ -31,13 +38,6 @@ export default function Resume() {
                     </ul>
                 </li>
                 </ul>
-            </div>
-            <div className="container">
-                <div className="row">
-                    <div className = "col-md-6 offset-md-5">
-                    <a href="https://github.com/Git-Vdim-Hub/Resume" className="text-decoration-none">Download My Resume</a>
-                    </div>
-                </div>
             </div>
         </div>
             
