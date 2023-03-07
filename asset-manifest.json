@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.571e0077.css",
+    "main.js": "/static/js/main.a50fbbef.js",
+    "static/media/Fiesta-Collector.png": "/static/media/Fiesta-Collector.499079b519a602db0054.png",
+    "static/media/Blog-Me.jpg": "/static/media/Blog-Me.9fb8ca69f065a0787c63.jpg",
+    "static/media/WeatherDashboard.jpg": "/static/media/WeatherDashboard.9b5728ec04cf5eff120f.jpg",
+    "static/media/BearCave.jpg": "/static/media/BearCave.bcc7001006ccc6416f00.jpg",
+    "static/media/GenMeReadMe.png": "/static/media/GenMeReadMe.075423cc9d558e632166.png",
+    "static/media/smallImage1.jpg": "/static/media/smallImage1.f52d8f8e84f5f6467559.jpg",
+    "index.html": "/index.html",
+    "main.571e0077.css.map": "/static/css/main.571e0077.css.map",
+    "main.a50fbbef.js.map": "/static/js/main.a50fbbef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.571e0077.css",
+    "static/js/main.a50fbbef.js"
+  ]
+}
