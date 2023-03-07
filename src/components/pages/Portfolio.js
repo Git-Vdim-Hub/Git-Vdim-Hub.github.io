@@ -1,9 +1,11 @@
 import React from 'react';
+// using custom styling for this section
 import '../../styles/Portfolio.css';
 import {Github} from "react-bootstrap-icons";
 
 export default function Portfolio () {
     return (
+        // Rendering the portfolio page
         <section className="work pb-5">
         <div className="gallery container">
               <a href="https://blog-mee.herokuapp.com/" className="largeImage text-decoration-none text-warning justify-content-end pe-2">

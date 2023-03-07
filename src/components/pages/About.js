@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function About () {
     return (
+        // basic syntax with paragraphs and a small image for the About Me page thats rendered when first visiting the website.
         <div className="container" style={{ display: "block", width: "100%", padding: 20 }}>
             <h4> About Me</h4>
             <img src='/images/Vadim1.png' className='img-fluid rounded' />

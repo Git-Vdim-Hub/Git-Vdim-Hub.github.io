@@ -2,6 +2,7 @@ import React from 'react';
 
 
 export default function Resume() {
+    // basic ul/li syntax to provide Proficiencies in front end and back end development
     return (
         <div>
             <div className="container">

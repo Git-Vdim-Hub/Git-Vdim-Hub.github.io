@@ -1,8 +1,10 @@
+// Uses bootstrap-react Container, Nav and Navbar dependencies
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+// Navigation component is used to conditionally render About Me, Portfolio, Contact and Resume sections
+//  Recieves currentPage and handlePageChange as props from Header
 export default function Navigation({currentPage, handlePageChange}){
     return(
       <Navbar bg="dark" expand="lg" variant="light">
@@ -11,6 +13,7 @@ export default function Navigation({currentPage, handlePageChange}){
         <Navbar.Toggle className="border-white navbar-light" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav text="light">
+            {/* Conditional Rendering between the four tabs/sections changing the state of currentPage*/}
             <Nav.Link href="#about"
                        onClick={() => handlePageChange('About')}
                       
@@ -31,7 +34,7 @@ export default function Navigation({currentPage, handlePageChange}){
                        onClick={() => handlePageChange('Contact')}
                        className={currentPage === 'Contact' ? 'dropdown-item nav-link active text-warning' : 'nav-link text-warning'} 
                        >
-                         Contact</Nav.Link>
+                          Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

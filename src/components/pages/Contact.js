@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-// Here we import a helper function that will check if the email is valid
+// Import a helper function that will check if the email is valid
 import {validateEmail } from '../../utils/helpers';
 
 
 
 
 export default function Contact (){
+  // useState for email, name, message and errorMessage
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [message, setMessage] = useState('');
@@ -48,7 +49,7 @@ export default function Contact (){
         setErrorMessage('');
       };
     
-
+//  Rendering the Contact Component
     return (
     <div className="container">
         <div className="row p-2">
